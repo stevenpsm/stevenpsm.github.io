@@ -1,0 +1,14 @@
+# Hugo build output
+public/
+resources/
+
+# Hugo local server
+.hugo_build.lock
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp

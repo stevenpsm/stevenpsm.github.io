@@ -1,0 +1,6 @@
+<audio controls preload="metadata" style="width:100%;margin:1rem 0;border-radius:4px;">
+  <source src="{{ .Get "src" }}" type="{{ .Get "type" | default "audio/mpeg" }}">
+  <p>您的浏览器不支持 HTML5 音频。/ Your browser does not support HTML5 audio.
+    <a href="{{ .Get "src" }}">下载音频 / Download audio</a>
+  </p>
+</audio>

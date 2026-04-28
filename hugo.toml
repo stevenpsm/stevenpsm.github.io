@@ -1,0 +1,70 @@
+baseURL = "https://stevenpsm.github.io/"
+languageCode = "zh-CN"
+title = "赛博炒饭"
+theme = "PaperMod"
+hasCJKLanguage = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+paginate = 10
+summaryLength = 100
+
+[params]
+  author = "stevenpsm"
+  description = "技术漫谈，偶尔播客。Tech ramblings, occasional podcast."
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  comments = true
+
+  [params.homeInfoParams]
+    Title = "赛博炒饭 🍳"
+    Content = "技术漫谈，偶尔播客。 / Tech ramblings, occasional podcast."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/stevenpsm"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
