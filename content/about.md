@@ -11,4 +11,12 @@ summary: "关于赛博炒饭"
 
 ---
 
+## About
+
+**Cyber Fried Rice** is a technical blog with occasional podcast episodes. It documents engineering thoughts, practical notes, and the occasional rambling.
+
+*More content coming soon…*
+
+---
+
 > 邮箱：pangsiming@139.com
