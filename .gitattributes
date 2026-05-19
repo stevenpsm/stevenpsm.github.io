@@ -1,0 +1,10 @@
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.webp -text
+*.svg -text
+*.ico -text
+*.bmp -text
+*.tiff -text
+*.avif -text
