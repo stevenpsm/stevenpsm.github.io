@@ -15,7 +15,11 @@ TocOpen: false
 
 项目采用离线交付方式，将调查知识和交互功能封装在一个 HTML 文件中，下载后用浏览器打开即可。使用者可以围绕具体系统和怀疑场景，关联查看历史漏洞、证据来源及调查步骤，再整理成一份 Markdown 狩猎计划。
 
-本文对应 `v0.1.1`。中英文操作动画放在[项目 README](https://github.com/stevenpsm/ThreatHuntingAtlas#readme) 中，可以先看演示，再下载试用。
+本文对应 `v0.1.1`。下面的中文演示展示了从目标系统进入详情，查看历史漏洞和日志证据的过程。英文演示可在[项目 README](https://github.com/stevenpsm/ThreatHuntingAtlas#readme) 中查看。
+
+![ThreatHuntingAtlas 中文操作演示：选择 Nginx 目标，查看历史漏洞及日志证据](assets/compromise-hunting-atlas-preview-zh-CN.gif)
+
+*演示：ThreatHuntingAtlas contributors，2026，采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。*
 
 ## 从“看看日志”往下多走一步
 
