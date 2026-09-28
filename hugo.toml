@@ -11,7 +11,7 @@ summaryLength = 100
 
 [params]
   author = "stevenpsm"
-  description = "技术漫谈，偶尔播客。Tech ramblings, occasional podcast."
+  description = "本站点是 stevenpsm 的个人技术博客，记录网络安全、威胁狩猎、数字取证、EDR 检测工程、LLM Agent 与开源工具实践。"
   defaultTheme = "auto"
   disableThemeToggle = false
   ShowReadingTime = true
