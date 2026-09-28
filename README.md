@@ -14,19 +14,9 @@
 
 ## 关于本仓库
 
-这是“赛博炒饭”博客的源代码仓库。站点使用 [Hugo](https://gohugo.io/) 和 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 构建；推送到 `main` 后，由 GitHub Actions 自动部署到 GitHub Pages。
+这是“赛博炒饭”个人博客的内容与站点源文件仓库，使用 Hugo 和 GitHub Pages 发布。
 
-文章位于 [`content/posts/`](content/posts/)，站点维护方法见 [`SETUP.md`](SETUP.md)。
-
-### 本地预览
-
-```bash
-git clone --recurse-submodules git@github.com:stevenpsm/stevenpsm.github.io.git
-cd stevenpsm.github.io
-hugo server -D
-```
-
-然后访问 `http://localhost:1313/`。
+如果你是从 GitHub 来到这里，建议直接访问[博客主页](https://stevenpsm.github.io/)阅读文章；文章源文件也可以在 [`content/posts/`](content/posts/) 中查看。
 
 ---
 
