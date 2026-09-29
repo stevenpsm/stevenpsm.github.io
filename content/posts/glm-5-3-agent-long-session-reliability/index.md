@@ -5,9 +5,15 @@ draft: false
 tags: ["Chinese", "LLM Agent", "GLM-5.3", "pi", "AI Coding", "可靠性工程"]
 categories: ["工具与实践"]
 description: "从一次 GLM-5.3 与 pi coding agent 的长会话出发，记录六类反复出现的可靠性问题，以及我如何把观察整理成可注入、可检查的 Agent 护栏。"
+lang: "zh-CN"
+alternateLang: "en-US"
+alternateURL: "/posts/glm-5-3-agent-long-session-reliability-en/"
+xDefaultURL: "/posts/glm-5-3-agent-long-session-reliability/"
 ShowToc: true
 TocOpen: false
 ---
+
+> 本文提供双语版本：**中文** · [English](/posts/glm-5-3-agent-long-session-reliability-en/)
 
 最近，我通过 pi coding agent 使用 GLM-5.3，完成了一次超过 60 轮的长会话。任务不是单点写代码，而是连续跨过需求讨论、代码修改、测试、后台任务、部署和进展汇报。
 
@@ -85,11 +91,13 @@ Agent 修 bug 时很容易只盯住触发问题的那个用例。替换一个共
 
 研究文档需要保存观察背景、根因假设、反例和证据限制；运行时上下文需要的是短、明确、可检查的动作。把两者混在一起，不但浪费上下文，还可能让真正重要的指令淹没在解释中。
 
-因此我建立了一个新仓库：[Agent Reliability Patterns](https://github.com/stevenpsm/agent-reliability-patterns)。仓库不绑定单一模型，而是把内容分成三层：
+因此我建立了一个新仓库：[Agent Reliability Patterns](https://github.com/stevenpsm/agent-reliability-patterns)。仓库不绑定单一模型，而是把内容分成五层：
 
 ```text
+cases/       脱敏后的现场案例与证据
 patterns/    完整的模型与 Harness 观察记录
 guardrails/  可注入 system prompt 或 AGENTS.md 的短规则
+evals/       可重复运行的对照评测
 templates/   后续模型复现与对照实验模板
 ```
 

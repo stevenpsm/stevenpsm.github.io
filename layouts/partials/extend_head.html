@@ -1,0 +1,9 @@
+{{- with .Params.lang }}
+<link rel="alternate" hreflang="{{ . }}" href="{{ $.Permalink }}">
+{{- end }}
+{{- with .Params.alternateurl }}
+<link rel="alternate" hreflang="{{ $.Params.alternatelang }}" href="{{ . | absURL }}">
+{{- end }}
+{{- with .Params.xdefaulturl }}
+<link rel="alternate" hreflang="x-default" href="{{ . | absURL }}">
+{{- end }}

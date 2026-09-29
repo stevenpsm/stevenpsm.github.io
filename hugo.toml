@@ -61,6 +61,18 @@ summaryLength = 100
     url = "/about/"
     weight = 40
 
+  [[menu.main]]
+    identifier = "english"
+    name = "EN"
+    url = "/tags/english/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "chinese"
+    name = "中"
+    url = "/tags/chinese/"
+    weight = 60
+
 [markup]
   [markup.highlight]
     style = "dracula"

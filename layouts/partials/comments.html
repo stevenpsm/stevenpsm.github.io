@@ -1,4 +1,5 @@
 {{- if .Param "comments" }}
+{{- $commentLang := .Param "lang" | default "" }}
 <div class="comments">
   <script src="https://giscus.app/client.js"
     data-repo="stevenpsm/stevenpsm.github.io"
@@ -11,7 +12,7 @@
     data-emit-metadata="0"
     data-input-position="bottom"
     data-theme="preferred_color_scheme"
-    data-lang="zh-CN"
+    data-lang="{{ if hasPrefix $commentLang "en" }}en{{ else }}zh-CN{{ end }}"
     crossorigin="anonymous"
     async>
   </script>
