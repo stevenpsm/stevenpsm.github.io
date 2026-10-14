@@ -1,6 +1,6 @@
 ---
 title: "How Far Have AI-Enabled Attacks Progressed? From ARTEX in South Korea to Risks Below the Waterline"
-date: 2026-10-14T18:00:00+08:00
+date: 2026-10-14T12:00:00+08:00
 draft: false
 tags: ["English", "AI Security", "Threat Research", "Threat Hunting", "Detection Engineering", "Incident Response"]
 categories: ["Research and Analysis"]
